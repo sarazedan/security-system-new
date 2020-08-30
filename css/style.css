@@ -1,3 +1,33 @@
+
+/* small mobile :320px. */
+@media only screen and (max-width: 479px) {
+	body{
+	  -webkit-transform: scale(0.6);
+		    -ms-transform: scale(0.6);
+		        transform: scale(0.6);
+		-webkit-transform-origin: right top;
+		    -ms-transform-origin: right top;
+		        transform-origin: right top;
+				
+				
+				 -webkit-transform: scale(0.6);
+		    -ms-transform: scale(0.6);
+		        transform: scale(0.6);
+		-webkit-transform-origin: left top;
+		    -ms-transform-origin: left top;
+		        transform-origin: left top;
+				
+				
+	}
+	.owl-carousel {
+			min-width: 50px;
+			
+	}
+	.intro-video .vidd  .viddd{
+	width :350px
+	}
+}
+
 /* =================================
 ------------------------------------
 	Labs - Design Studio
@@ -263,7 +293,7 @@ ul {
 	width: 100%;
 	z-index: 999;
 	padding: 0 50px;
-	background: white;
+	background: #f5faf8;
 	-webkit-transition: all 0.4s ease 0s;
 	-o-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;
@@ -1156,6 +1186,9 @@ color:#2be6ab;
 }
 
 /* Sidebar */
+.sidebar{
+	background-color:#dee4e2;
+}
 .widget-item {
 	margin-bottom: 60px;
 	overflow: hidden;
